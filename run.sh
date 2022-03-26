@@ -6,4 +6,4 @@ cat files/input | node $1
 echo "============================="
 echo "Output"
 echo "============================="
-echo $(cat files/output)
+cat files/output
