@@ -44,7 +44,6 @@ function diagonalDifference(grid) {
   grid.forEach((c, i) => {
     leftDiagonalSum += c[i];
     rightDiagonalSum += c[width - 1 - i];
-    console.log({ c, i, width });
   });
 
   return Math.abs(leftDiagonalSum - rightDiagonalSum);
