@@ -7,7 +7,7 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Cargo launch",
+      "name": "largest-rectangle-area",
       "cargo": {
         "args": [
           "build",
@@ -15,6 +15,25 @@
         ]
       },
       "args": []
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "generate-parentheses",
+      "cargo": {
+        "args": [
+          "build",
+          "--manifest-path=${workspaceFolder}/generate-parentheses/Cargo.toml"
+        ]
+      },
+      "args": []
+    },
+    {
+      "name": "trapping-rain-water",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${fileDirname}"
     }
   ]
 }
