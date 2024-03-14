@@ -5,11 +5,16 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Package",
-      "type": "go",
+      "type": "lldb",
       "request": "launch",
-      "mode": "auto",
-      "program": "${fileDirname}"
+      "name": "Cargo launch",
+      "cargo": {
+        "args": [
+          "build",
+          "--manifest-path=${workspaceFolder}/largest-rectangle-area/Cargo.toml"
+        ]
+      },
+      "args": []
     }
   ]
 }
