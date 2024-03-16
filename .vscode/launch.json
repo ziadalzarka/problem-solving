@@ -17,6 +17,18 @@
       "args": []
     },
     {
+      "type": "lldb",
+      "request": "launch",
+      "name": "search-2d-matrix",
+      "cargo": {
+        "args": [
+          "build",
+          "--manifest-path=${workspaceFolder}/search-2d-matrix/Cargo.toml"
+        ]
+      },
+      "args": []
+    },
+    {
       "name": "trapping-rain-water",
       "type": "go",
       "request": "launch",

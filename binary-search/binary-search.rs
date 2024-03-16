@@ -7,7 +7,7 @@ fn search(nums: Vec<i32>, target: i32) -> i32 {
         let num: &i32 = nums.get(middle as usize).unwrap();
 
         if target == *num {
-            return middle.try_into().unwrap();
+            return middle;
         } else if target > *num {
             left = middle + 1;
         } else if target < *num {
