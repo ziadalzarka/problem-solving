@@ -41,6 +41,9 @@ impl WordDictionary {
                         .get_mut(&character)
                         .unwrap()
                         .as_mut();
+                    if index == word.len() - 1 {
+                        last_hashmap_ref.end_of_word = true;
+                    }
                 }
                 false => {
                     let new_word_dict = Box::new(WordDict::new(index == word.len() - 1));
