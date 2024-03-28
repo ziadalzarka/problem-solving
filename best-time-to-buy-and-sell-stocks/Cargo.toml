@@ -1,0 +1,12 @@
+[package]
+name = "best-time-to-buy-and-sell-stocks"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "best-time-to-buy-and-sell-stocks"
+path = "best-time-to-buy-and-sell-stocks.rs"

@@ -5,28 +5,23 @@ fn find_min(nums: Vec<i32>) -> i32 {
     let mut right = nums.len() - 1;
     let min = nums[0];
 
-    if nums[right] > nums[left] {
-        return min;
-    }
-
     while left < right {
         let middle = (left + right) / 2;
 
-        println!("P: {left} {middle} {right}");
-        println!("N: {} {} {}", nums[left], nums[middle], nums[right]);
+        if right - left == 1 {
+            return std::cmp::min(nums[right], nums[left]);
+        }
 
-        match (
-            nums[middle].cmp(&nums[left]),
-            nums[middle].cmp(&nums[right]),
-        ) {
-            (Ordering::Greater, Ordering::Less) => return nums[left],
-            (Ordering::Less, Ordering::Less) => right = middle,
-            (Ordering::Less, Ordering::Equal) => return nums[right],
-            (Ordering::Equal, Ordering::Equal) => return nums[middle],
-            (Ordering::Equal, Ordering::Greater) => return nums[right],
-            (Ordering::Equal, Ordering::Less) => return nums[left],
-            (Ordering::Greater, Ordering::Greater) => left = middle,
-            _ => break,
+        match nums[middle].cmp(&nums[right]) {
+            Ordering::Less => {
+                right = middle;
+            }
+            Ordering::Equal => {
+                return nums[middle];
+            }
+            Ordering::Greater => {
+                left = middle;
+            }
         }
     }
 
@@ -34,5 +29,5 @@ fn find_min(nums: Vec<i32>) -> i32 {
 }
 
 fn main() {
-    println!("{}", find_min(vec![4, 5, 6, 7, 0, 1, 2]));
+    println!("{}", find_min(vec![2, 3, 1]));
 }
