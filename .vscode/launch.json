@@ -29,6 +29,18 @@
       "args": []
     },
     {
+      "type": "lldb",
+      "request": "launch",
+      "name": "median-of-two-sorted-arrays",
+      "cargo": {
+        "args": [
+          "build",
+          "--manifest-path=${workspaceFolder}/median-of-two-sorted-arrays/Cargo.toml"
+        ]
+      },
+      "args": []
+    },
+    {
       "name": "trapping-rain-water",
       "type": "go",
       "request": "launch",
