@@ -5,6 +5,12 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "majority-element",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
       "type": "lldb",
       "request": "launch",
       "name": "largest-rectangle-area",
