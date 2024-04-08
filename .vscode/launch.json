@@ -25,6 +25,18 @@
     {
       "type": "lldb",
       "request": "launch",
+      "name": "task-scheduler",
+      "cargo": {
+        "args": [
+          "build",
+          "--manifest-path=${workspaceFolder}/task-scheduler/Cargo.toml"
+        ]
+      },
+      "args": []
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
       "name": "search-2d-matrix",
       "cargo": {
         "args": [
