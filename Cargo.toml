@@ -1,0 +1,2 @@
+[workspace]
+members = ["neetcode/sliding-window/longest-repeating-character-replacement"]
