@@ -1,2 +1,6 @@
 [workspace]
-members = ["neetcode/sliding-window/longest-repeating-character-replacement"]
+resolver = "2"
+members = [
+  "neetcode/sliding-window/longest-repeating-character-replacement",
+  "merge-strings-alternately",
+]
