@@ -4,5 +4,6 @@ members = [
     "neetcode/sliding-window/longest-repeating-character-replacement",
     "merge-strings-alternately",
     "gcd-of-strings",
-    "close-strings"
+    "close-strings",
+    "number-of-provinces"
 ]
