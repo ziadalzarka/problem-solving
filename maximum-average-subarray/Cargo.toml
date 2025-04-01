@@ -1,5 +1,5 @@
 [package]
-name = "gcd-of-strings"
+name = "maximum-average-subarray"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 
 [[bin]]
-name = "gcd-of-strings"
-path = "gcd-of-strings.rs"
+name = "maximum-average-subarray"
+path = "maximum-average-subarray.rs"

@@ -3,7 +3,7 @@ resolver = "2"
 members = [
     "neetcode/sliding-window/longest-repeating-character-replacement",
     "merge-strings-alternately",
-    "gcd-of-strings",
     "close-strings",
-    "number-of-provinces"
+    "number-of-provinces",
+    "maximum-average-subarray"
 ]
