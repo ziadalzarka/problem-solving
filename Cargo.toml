@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
 members = [
-    "neetcode/sliding-window/longest-repeating-character-replacement",
+    "longest-repeating-character-replacement",
     "merge-strings-alternately",
     "close-strings",
     "number-of-provinces",
