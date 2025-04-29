@@ -61,6 +61,10 @@ name = "longest-substring-without-repeating-characters"
 version = "0.1.0"
 
 [[package]]
+name = "max-number-of-k-sum-pairs"
+version = "0.1.0"
+
+[[package]]
 name = "maximum-average-subarray"
 version = "0.1.0"
 

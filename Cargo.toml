@@ -30,4 +30,5 @@ members = [
     "task-scheduler",
     "three-sum",
     "time-based-key-value-store",
+    "max-number-of-k-sum-pairs"
 ]
