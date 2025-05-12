@@ -49,7 +49,15 @@ name = "koko-eating-bananas"
 version = "0.1.0"
 
 [[package]]
+name = "kth-largest-element-in-an-array"
+version = "0.1.0"
+
+[[package]]
 name = "largest-rectangle-area"
+version = "0.1.0"
+
+[[package]]
+name = "last-stone-weight"
 version = "0.1.0"
 
 [[package]]
@@ -58,6 +66,10 @@ version = "0.1.0"
 
 [[package]]
 name = "longest-substring-without-repeating-characters"
+version = "0.1.0"
+
+[[package]]
+name = "max-heap"
 version = "0.1.0"
 
 [[package]]
@@ -92,6 +104,10 @@ version = "0.1.0"
 
 [[package]]
 name = "merge-two-sorted-lists"
+version = "0.1.0"
+
+[[package]]
+name = "min-heap"
 version = "0.1.0"
 
 [[package]]
